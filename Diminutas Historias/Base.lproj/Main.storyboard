@@ -1,25 +1,845 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T3X-2u-MaM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="olivier_demo.ttf">
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+            <string>olivier</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Diminutas_Historias" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pZw-2R-8Fd" userLabel="Pagina 9">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="invierno" translatesAutoresizingMaskIntoConstraints="NO" id="97g-rE-vKO">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="otoño" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-ht-OFE">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="verano" translatesAutoresizingMaskIntoConstraints="NO" id="oLr-yX-Fuv">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="primavera" translatesAutoresizingMaskIntoConstraints="NO" id="XBB-qR-W6O">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="las estaciones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YC2-W8-K2r" userLabel="txtPag9p2">
+                                        <rect key="frame" x="36" y="78" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sin embargo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mh2-8O-Pyl" userLabel="txtPag9p1">
+                                        <rect key="frame" x="18" y="18" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85098039215686272" green="0.38823529411764707" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="FDq-b4-ecq" appends="YES" id="Rd3-mN-jca"/>
+                                    <outletCollection property="gestureRecognizers" destination="zwC-fO-EDm" appends="YES" id="zTX-hs-8hc"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11X-fP-Naa" userLabel="Pagina 8">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fondoverde" translatesAutoresizingMaskIntoConstraints="NO" id="XMH-Fv-vjR">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GranoArena" translatesAutoresizingMaskIntoConstraints="NO" id="hRJ-CI-T6x">
+                                        <rect key="frame" x="490" y="406" width="21" height="22"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GranoArena" translatesAutoresizingMaskIntoConstraints="NO" id="aE0-gE-CUa" userLabel="GranoArena1">
+                                        <rect key="frame" x="490" y="355" width="21" height="22"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RelojArena" translatesAutoresizingMaskIntoConstraints="NO" id="f2f-tl-NZX">
+                                        <rect key="frame" x="300" y="161" width="401" height="577"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sin embargo, el venado sabia que su tiempo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2g-ec-kXq" userLabel="txtPag6p1">
+                                        <rect key="frame" x="77" y="36" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="estaba por acabarse." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIj-Pf-Xcz" userLabel="txtPag6p1">
+                                        <rect key="frame" x="338" y="91" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98375289015375578" green="0.75474295162798533" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IWy-0Y-Y0j" appends="YES" id="PAw-zS-wUA"/>
+                                    <outletCollection property="gestureRecognizers" destination="Hol-gv-P8p" appends="YES" id="aib-Rc-3rj"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Fg-kT-zvO" userLabel="Pagina 10">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondoGris" translatesAutoresizingMaskIntoConstraints="NO" id="j8h-IC-cxO">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VenadoOjosCerrado" translatesAutoresizingMaskIntoConstraints="NO" id="Mnm-Gk-BMe">
+                                        <rect key="frame" x="354" y="213" width="987" height="983"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Y llego este momento, llego el momento en que el" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aby-Lj-XYP" userLabel="txtPag9p2">
+                                        <rect key="frame" x="18" y="29" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="venado tenia que partir hacia el otro mundo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cie-nj-YPX" userLabel="txtPag9p2">
+                                        <rect key="frame" x="28" y="86" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ManoMuerte-1" translatesAutoresizingMaskIntoConstraints="NO" id="LEW-ul-RpU">
+                                        <rect key="frame" x="-194" y="127" width="629" height="641"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.88577377462347895" green="1" blue="0.80343290311561766" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ugE-dU-7Lq" appends="YES" id="vNn-eh-rz8"/>
+                                    <outletCollection property="gestureRecognizers" destination="QmS-K2-cI0" appends="YES" id="UVN-oz-WrP"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogT-5W-DEc" userLabel="Pagina 6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BY7-jN-FFc">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bwa-tL-CeQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                                <color key="backgroundColor" red="0.050573967082782195" green="0.25911387105699307" blue="0.45526610246153854" alpha="1" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Montesito-Pag6" translatesAutoresizingMaskIntoConstraints="NO" id="h8c-z7-9A7">
+                                                <rect key="frame" x="0.0" y="492" width="1024" height="276"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VenadoSentado" translatesAutoresizingMaskIntoConstraints="NO" id="e0h-ne-D9z">
+                                                <rect key="frame" x="219" y="418" width="286" height="203"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaAtras" translatesAutoresizingMaskIntoConstraints="NO" id="85N-VC-B60">
+                                                <rect key="frame" x="501" y="270" width="227" height="354"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Luna" translatesAutoresizingMaskIntoConstraints="NO" id="uMX-Hb-16w">
+                                                <rect key="frame" x="435" y="27" width="155" height="194"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sol" translatesAutoresizingMaskIntoConstraints="NO" id="MWc-Rm-2zV">
+                                                <rect key="frame" x="413" y="32" width="198" height="194"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El venado se sintio muy diferente después de eso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhp-GL-csJ" userLabel="txtPag5p1">
+                                                <rect key="frame" x="28" y="620" width="988" height="62"/>
+                                                <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="encontró un amigo con quien pasar el" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEq-nP-DNe" userLabel="txtPag5p2">
+                                                <rect key="frame" x="134" y="662" width="988" height="62"/>
+                                                <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tiempo y con quien estar." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zro-11-4wA" userLabel="txtPag5p3">
+                                                <rect key="frame" x="290" y="708" width="988" height="62"/>
+                                                <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.59607843140000005" green="0.81568627449999997" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.59607843137254901" green="0.81568627450980391" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dcP-0X-TGd" appends="YES" id="cHi-Gw-bcL"/>
+                                    <outletCollection property="gestureRecognizers" destination="0k2-uv-BPO" appends="YES" id="oGd-AN-lZK"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mHD-kp-340" userLabel="Pagina 5">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoPag5" translatesAutoresizingMaskIntoConstraints="NO" id="sPr-8c-6nV">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VenadoPerfil" translatesAutoresizingMaskIntoConstraints="NO" id="N1C-8l-WBp">
+                                        <rect key="frame" x="512" y="282" width="893" height="1006"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaPerfil" translatesAutoresizingMaskIntoConstraints="NO" id="IZT-aF-d44">
+                                        <rect key="frame" x="-791" y="261" width="1357" height="723"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="salía corriendo, le agrado tanto que decidió" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXu-pK-Y43" userLabel="txtPag4p2">
+                                        <rect key="frame" x="107" y="87" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="darle mas tiempo." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irD-mH-wyk" userLabel="txtPag4p3">
+                                        <rect key="frame" x="398" y="151" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="… al ver su mirada, su quietud y al ver que no" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMW-Cd-2n8" userLabel="txtPag4p1">
+                                        <rect key="frame" x="49" y="24" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.67549572044702999" green="1" blue="0.94793374399858643" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ob9-DP-bFc" appends="YES" id="4pH-PU-275"/>
+                                    <outletCollection property="gestureRecognizers" destination="uiz-Cb-dSc" appends="YES" id="BN8-Nw-HIL"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pE-Eq-w5M" userLabel="Pagina 4">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoSinArbol-pag4" translatesAutoresizingMaskIntoConstraints="NO" id="LDE-sR-p66">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VenadoFrente" translatesAutoresizingMaskIntoConstraints="NO" id="ppP-gq-BJ2">
+                                        <rect key="frame" x="785" y="271" width="196" height="214"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaAtras" translatesAutoresizingMaskIntoConstraints="NO" id="u4U-mv-LDs">
+                                        <rect key="frame" x="97" y="414" width="226" height="354"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ArbolFrente" translatesAutoresizingMaskIntoConstraints="NO" id="xvG-21-PDh">
+                                        <rect key="frame" x="0.0" y="215" width="240" height="553"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Un día, al ser la hora de" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIu-dZ-uJa" userLabel="txtPag3p1">
+                                        <rect key="frame" x="527" y="56" width="489" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="enviar a un venado a otro mundo," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="il9-1Y-Dk9" userLabel="txtPag3p2">
+                                        <rect key="frame" x="357" y="107" width="659" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fue cautivada por aquel animal." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isV-aT-5aJ" userLabel="txtPag3p3">
+                                        <rect key="frame" x="379" y="172" width="637" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83391758676053351" green="0.78061667459802964" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="S3R-LI-rkb" appends="YES" id="LLA-nP-vO1"/>
+                                    <outletCollection property="gestureRecognizers" destination="qfd-nn-SNE" appends="YES" id="Fqf-tr-Esb"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u2k-Kp-hsl" userLabel="Pagina 3">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoBosque" translatesAutoresizingMaskIntoConstraints="NO" id="Kuv-9W-ke6">
+                                        <rect key="frame" x="-20" y="-78" width="1355" height="1016"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaNoFace" translatesAutoresizingMaskIntoConstraints="NO" id="3L1-bJ-fOt">
+                                        <rect key="frame" x="138" y="182" width="657" height="1009"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaFace" translatesAutoresizingMaskIntoConstraints="NO" id="fV5-wg-u76">
+                                        <rect key="frame" x="386" y="302" width="268" height="255"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="La joven parca, solía ser rechazada por todos," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJ9-cj-Ijn" userLabel="txtPag2P1">
+                                        <rect key="frame" x="132" y="19" width="884" height="78"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ya que aveces tenia que enviar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBv-aV-hxp" userLabel="txtpag2P2">
+                                        <rect key="frame" x="361" y="69" width="884" height="78"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="otro lugar a algunos animales" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hj-bQ-MA7" userLabel="txtPag2P3">
+                                        <rect key="frame" x="434" y="120" width="884" height="78"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.7453872467746987" blue="0.58096231022053502" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Vcf-GA-xTD" appends="YES" id="dEW-Ke-nke"/>
+                                    <outletCollection property="gestureRecognizers" destination="4Dj-iz-2iF" appends="YES" id="NNr-Ke-ybQ"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2W-vr-UAP" userLabel="Pagina 2">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoBosque" translatesAutoresizingMaskIntoConstraints="NO" id="dFo-PH-IJV" userLabel="Fondo">
+                                        <rect key="frame" x="-237" y="0.0" width="1261" height="941"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="En un bosque llenó de animales," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IZ-NS-bBx">
+                                        <rect key="frame" x="179" y="604" width="893" height="64"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="habitaba un peculiar y solitario ser. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-qc-TXF" userLabel="Txt Pag1-2">
+                                        <rect key="frame" x="246" y="649" width="893" height="64"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ps7-jT-3h1">
+                                        <rect key="frame" x="631" y="241" width="393" height="286"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ArbolFrente" translatesAutoresizingMaskIntoConstraints="NO" id="h7e-wB-1Yn">
+                                        <rect key="frame" x="0.0" y="248" width="240" height="520"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.7278495304633501" blue="0.8499767120474635" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="9Z3-LG-qra" appends="YES" id="m3X-RG-txE"/>
+                                    <outletCollection property="gestureRecognizers" destination="Rte-Nj-8Vy" appends="YES" id="fQu-Ym-YPg"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOQ-oK-kjo" userLabel="Pagina 1">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaFrente" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-6G-Sx9">
+                                        <rect key="frame" x="540" y="0.0" width="103" height="158"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tituloCuentoMuerte" translatesAutoresizingMaskIntoConstraints="NO" id="ojn-5B-TW0">
+                                        <rect key="frame" x="183" y="249" width="597" height="318"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoTitulo" translatesAutoresizingMaskIntoConstraints="NO" id="ETh-A4-64j">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80392156862745101" green="0.93725490196078431" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="da5-A3-jco" appends="YES" id="7cO-Bd-6Fo"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g69-93-Uqw" userLabel="Pagina 7">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lago" translatesAutoresizingMaskIntoConstraints="NO" id="wgt-DK-K7a">
+                                        <rect key="frame" x="0.0" y="515" width="1029" height="253"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ondaVenado" translatesAutoresizingMaskIntoConstraints="NO" id="rfi-Ts-XeJ">
+                                        <rect key="frame" x="673" y="610" width="240" height="63"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OndaMuerte" translatesAutoresizingMaskIntoConstraints="NO" id="8Hx-e1-p1E">
+                                        <rect key="frame" x="197" y="580" width="240" height="71"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VenadoPerfil" translatesAutoresizingMaskIntoConstraints="NO" id="Aon-Yy-rCU">
+                                        <rect key="frame" x="544" y="276" width="378" height="375"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaFrente" translatesAutoresizingMaskIntoConstraints="NO" id="1B4-os-FCa">
+                                        <rect key="frame" x="197" y="241" width="240" height="379"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="le enseño muchas cosas y el venado le enseño a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsi-3X-CWS" userLabel="txtPag7">
+                                        <rect key="frame" x="55" y="16" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="como ser el" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJE-9A-LFD" userLabel="txtPag7">
+                                        <rect key="frame" x="410" y="76" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SolMover" translatesAutoresizingMaskIntoConstraints="NO" id="UWR-l0-HCN">
+                                        <rect key="frame" x="707" y="56" width="224" height="227"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cyan="0.24136041194800562" magenta="0.018517943099141121" yellow="0.050903908908367157" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="CVH-EZ-H2f" appends="YES" id="ZeO-iW-99O"/>
+                                    <outletCollection property="gestureRecognizers" destination="WFN-wR-7Om" appends="YES" id="a7x-FS-Wda"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mg7-mN-C3d" userLabel="Pagina 13">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-parquitaSad" translatesAutoresizingMaskIntoConstraints="NO" id="TDg-lD-aD5">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fin..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7Z-qV-tr3">
+                                        <rect key="frame" x="334" y="283" width="604" height="314"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="300"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hIx-Lq-eHD" appends="YES" id="ftQ-8J-ESk"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M4d-xl-7LI" userLabel="Pagina 11">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo-parquitaSad" translatesAutoresizingMaskIntoConstraints="NO" id="1od-6q-kTV">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaNoFace" translatesAutoresizingMaskIntoConstraints="NO" id="18a-m9-VXv">
+                                        <rect key="frame" x="34" y="26" width="748" height="1285"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ParquitaFace" translatesAutoresizingMaskIntoConstraints="NO" id="kgP-mH-zY0">
+                                        <rect key="frame" x="294" y="181" width="343" height="318"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parquitaSad" translatesAutoresizingMaskIntoConstraints="NO" id="uTi-Qz-BhG">
+                                        <rect key="frame" x="314" y="172" width="305" height="317"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A ella le dolió tanto, pero sabia que era lo correcto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSP-kV-v1e" userLabel="txtPag9p2">
+                                        <rect key="frame" x="18" y="8" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.50232388602692424" green="0.70601243546013681" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OAS-70-diF" appends="YES" id="noy-Ue-IIb"/>
+                                    <outletCollection property="gestureRecognizers" destination="tO9-Ki-ML5" appends="YES" id="Ysb-Vu-OeK"/>
+                                </connections>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UGb-Ji-M4a" userLabel="Pagina 12">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoTitulo" translatesAutoresizingMaskIntoConstraints="NO" id="Tr4-SW-iyv">
+                                        <rect key="frame" x="-212" y="0.0" width="1236" height="927"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="finalAbrazoAmistad" translatesAutoresizingMaskIntoConstraints="NO" id="kiX-Ve-4cm">
+                                        <rect key="frame" x="263" y="40" width="686" height="879"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="un abrazo, y fue así este" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJa-AI-pnt" userLabel="txtPag12-3">
+                                        <rect key="frame" x="18" y="123" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="su ultimo adios a " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvY-kd-UMJ" userLabel="txtPag12-4">
+                                        <rect key="frame" x="18" y="188" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a su único y mejor amigo." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDq-3z-XIf" userLabel="txtPag12-5">
+                                        <rect key="frame" x="18" y="237" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Así que por primera y ultima vez," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhY-1q-sT9" userLabel="txtPag12-1">
+                                        <rect key="frame" x="18" y="14" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ella lo toco dandole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cep-qC-gST" userLabel="txtPag12-2">
+                                        <rect key="frame" x="18" y="71" width="988" height="62"/>
+                                        <fontDescription key="fontDescription" name="olivier" family="olivier" pointSize="50"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80392156862745101" green="0.93725490196078431" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ywJ-U3-M2D" appends="YES" id="1Nt-Kl-nAW"/>
+                                    <outletCollection property="gestureRecognizers" destination="Tna-3o-A6u" appends="YES" id="ESR-Q3-1gh"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="granoArena" destination="hRJ-CI-T6x" id="vtT-tz-cKK"/>
+                        <outlet property="imgAbrazo" destination="kiX-Ve-4cm" id="QRe-4U-yzA"/>
+                        <outlet property="imgArbolEscondido" destination="h7e-wB-1Yn" id="hli-Bc-YEk"/>
+                        <outlet property="imgArbolEstorba" destination="xvG-21-PDh" id="W4x-C5-h2i"/>
+                        <outlet property="imgCaraParca" destination="fV5-wg-u76" id="BqG-0o-uNd"/>
+                        <outlet property="imgCieloNoche" destination="Bwa-tL-CeQ" id="hK0-VC-C86"/>
+                        <outlet property="imgFondoPag1" destination="ETh-A4-64j" id="pUo-ai-9Wy"/>
+                        <outlet property="imgGrano2" destination="aE0-gE-CUa" id="QIE-8M-dJd"/>
+                        <outlet property="imgInvierno" destination="97g-rE-vKO" id="hxx-IM-Tr4"/>
+                        <outlet property="imgLuna" destination="uMX-Hb-16w" id="Xl2-DX-am2"/>
+                        <outlet property="imgManoMuerte" destination="LEW-ul-RpU" id="lYW-mH-Mcm"/>
+                        <outlet property="imgOtoño" destination="Pz0-ht-OFE" id="HuE-aA-6fl"/>
+                        <outlet property="imgParca1" destination="kgP-mH-zY0" id="CfG-Bb-bSC"/>
+                        <outlet property="imgParca2" destination="uTi-Qz-BhG" id="4Ps-B3-1aT"/>
+                        <outlet property="imgParcaAtras" destination="u4U-mv-LDs" id="VRa-aa-cgY"/>
+                        <outlet property="imgParcaP1" destination="Fec-6G-Sx9" id="59a-bh-CZj"/>
+                        <outlet property="imgParcaPag1" destination="Ps7-jT-3h1" id="i6M-Ih-Ylt"/>
+                        <outlet property="imgParquitaPag6" destination="85N-VC-B60" id="ckX-Cq-jjv"/>
+                        <outlet property="imgPerfilp4" destination="IZT-aF-d44" id="J3W-dk-VPT"/>
+                        <outlet property="imgPrimavera" destination="XBB-qR-W6O" id="ERu-CU-M0e"/>
+                        <outlet property="imgRelojArena" destination="f2f-tl-NZX" id="7wY-8P-s9a"/>
+                        <outlet property="imgSol" destination="MWc-Rm-2zV" id="SMb-A0-XuP"/>
+                        <outlet property="imgSolMover" destination="UWR-l0-HCN" id="bB6-XG-mqy"/>
+                        <outlet property="imgVenadoFrente" destination="ppP-gq-BJ2" id="fDE-X9-zG9"/>
+                        <outlet property="imgVenadoPerfil" destination="N1C-8l-WBp" id="4Y2-aX-2oq"/>
+                        <outlet property="imgVerano" destination="oLr-yX-Fuv" id="Gc6-tx-waq"/>
+                        <outlet property="lblFin" destination="p7Z-qV-tr3" id="98h-Kd-C0V"/>
+                        <outlet property="lblTitulo" destination="ojn-5B-TW0" id="yYP-1N-cOO"/>
+                        <outlet property="ondaAguaParca" destination="8Hx-e1-p1E" id="ZxX-0e-kQa"/>
+                        <outlet property="ondaAguaVenado" destination="rfi-Ts-XeJ" id="pYb-r7-Hkh"/>
+                        <outlet property="txtPag1" destination="8IZ-NS-bBx" id="WSY-bB-jLh"/>
+                        <outlet property="txtPag10" destination="aby-Lj-XYP" id="t1K-4P-2vW"/>
+                        <outlet property="txtPag10p2" destination="cie-nj-YPX" id="XBW-Xq-hCb"/>
+                        <outlet property="txtPag11" destination="JSP-kV-v1e" id="9RX-LI-6dg"/>
+                        <outlet property="txtPag12p1" destination="XhY-1q-sT9" id="Sxg-Ze-LoH"/>
+                        <outlet property="txtPag12p2" destination="Cep-qC-gST" id="tuH-lr-wfc"/>
+                        <outlet property="txtPag12p3" destination="EJa-AI-pnt" id="c6T-g6-lli"/>
+                        <outlet property="txtPag12p4" destination="IvY-kd-UMJ" id="aQb-tg-3UM"/>
+                        <outlet property="txtPag12p5" destination="WDq-3z-XIf" id="ZY0-nE-BWa"/>
+                        <outlet property="txtPag1p2" destination="uYf-qc-TXF" id="hJa-A3-Fkf"/>
+                        <outlet property="txtPag2p1" destination="VJ9-cj-Ijn" id="ABi-hy-btc"/>
+                        <outlet property="txtPag2p2" destination="XBv-aV-hxp" id="HZh-iz-zmV"/>
+                        <outlet property="txtPag2p3" destination="8hj-bQ-MA7" id="zlY-Ud-bPS"/>
+                        <outlet property="txtPag3p1" destination="VIu-dZ-uJa" id="cTs-Hl-iy3"/>
+                        <outlet property="txtPag3p2" destination="il9-1Y-Dk9" id="rdz-aE-ZNc"/>
+                        <outlet property="txtPag3p3" destination="isV-aT-5aJ" id="o4H-ho-Pwt"/>
+                        <outlet property="txtPag4p1" destination="eMW-Cd-2n8" id="oWG-q6-EXL"/>
+                        <outlet property="txtPag4p2" destination="pXu-pK-Y43" id="SoD-3B-BEl"/>
+                        <outlet property="txtPag4p3" destination="irD-mH-wyk" id="Uh0-qD-mPv"/>
+                        <outlet property="txtPag5p1" destination="Mhp-GL-csJ" id="7rG-14-Pcd"/>
+                        <outlet property="txtPag5p2" destination="SEq-nP-DNe" id="3QD-JE-Vkv"/>
+                        <outlet property="txtPag5p3" destination="zro-11-4wA" id="BvR-ms-5zU"/>
+                        <outlet property="txtPag7" destination="R2g-ec-kXq" id="QfR-eo-Crq"/>
+                        <outlet property="txtPag7Ondas" destination="wsi-3X-CWS" id="yqt-5W-8Im"/>
+                        <outlet property="txtPag7p2" destination="aIj-Pf-Xcz" id="yI4-zY-han"/>
+                        <outlet property="txtPag7p2Ondas" destination="vJE-9A-LFD" id="pjj-0p-izQ"/>
+                        <outlet property="txtPag9p1" destination="Mh2-8O-Pyl" id="2pg-7H-IkJ"/>
+                        <outlet property="txtPag9p2" destination="YC2-W8-K2r" id="30z-fV-p4C"/>
+                        <outlet property="venadoOjos" destination="Mnm-Gk-BMe" id="TKX-JP-TyY"/>
+                        <outlet property="vwPaginaCinco" destination="mHD-kp-340" id="pP2-oE-TcZ"/>
+                        <outlet property="vwPaginaCuatro" destination="5pE-Eq-w5M" id="WTH-NX-DKW"/>
+                        <outlet property="vwPaginaDiez" destination="8Fg-kT-zvO" id="AdU-De-HWL"/>
+                        <outlet property="vwPaginaDoce" destination="UGb-Ji-M4a" id="LBg-94-07V"/>
+                        <outlet property="vwPaginaDos" destination="a2W-vr-UAP" id="zCV-Kc-aFO"/>
+                        <outlet property="vwPaginaNueve" destination="pZw-2R-8Fd" id="2Gl-In-Fym"/>
+                        <outlet property="vwPaginaOcho" destination="11X-fP-Naa" id="YuQ-zE-Oex"/>
+                        <outlet property="vwPaginaOnce" destination="M4d-xl-7LI" id="lwK-Xh-mxG"/>
+                        <outlet property="vwPaginaSeis" destination="ogT-5W-DEc" id="l7O-45-wJy"/>
+                        <outlet property="vwPaginaSiete" destination="g69-93-Uqw" id="fbP-Cy-POe"/>
+                        <outlet property="vwPaginaTrece" destination="Mg7-mN-C3d" id="bRt-vG-5BN"/>
+                        <outlet property="vwPaginaTres" destination="u2k-Kp-hsl" id="7xK-D5-nBA"/>
+                        <outlet property="vwPaginaUno" destination="dOQ-oK-kjo" id="Kie-ef-duW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="da5-A3-jco" userLabel="Swipe Sig pagina 1">
+                    <connections>
+                        <action selector="doSwipePaginauno:" destination="BYZ-38-t0r" id="fY7-ti-Hn1"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="9Z3-LG-qra" userLabel="Swipe Ant pagina 2">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaDos:" destination="BYZ-38-t0r" id="DgG-z7-lcw"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Rte-Nj-8Vy" userLabel="Swipe Sig pagina 2">
+                    <connections>
+                        <action selector="doSwipePaginaDos:" destination="BYZ-38-t0r" id="q6U-vY-BdO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="4Dj-iz-2iF" userLabel="Swipe Sig pagina 3">
+                    <connections>
+                        <action selector="doSwipeRightTres:" destination="BYZ-38-t0r" id="f4T-Hp-AaH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Vcf-GA-xTD" userLabel="Swipe Ant pagina 3">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaTres:" destination="BYZ-38-t0r" id="npN-PV-zDn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="S3R-LI-rkb" userLabel="Swipe Sig pagina 4">
+                    <connections>
+                        <action selector="doSwipeRightPaginaCuatro:" destination="BYZ-38-t0r" id="THS-Tz-L4K"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="qfd-nn-SNE" userLabel="Swipe Ant pagina 4">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaCuatro:" destination="BYZ-38-t0r" id="BWa-Kh-PIT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="ob9-DP-bFc" userLabel="Swipe Sig pagina 5">
+                    <connections>
+                        <action selector="doSwipeRightPaginaCinco:" destination="BYZ-38-t0r" id="ONK-cg-KAS"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="uiz-Cb-dSc" userLabel="Swipe Ant pagina 5">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaCinco:" destination="BYZ-38-t0r" id="NMs-dP-fGA"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="dcP-0X-TGd" userLabel="Swipe Sig pagina 6">
+                    <connections>
+                        <action selector="doSwipeRightPaginaSeis:" destination="BYZ-38-t0r" id="3fW-5u-4ED"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="0k2-uv-BPO" userLabel="Swipe Ant pagina 6">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaSeis:" destination="BYZ-38-t0r" id="cT1-MM-hMv"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="IWy-0Y-Y0j" userLabel="Swipe Sig pagina 8">
+                    <connections>
+                        <action selector="doSwipeRightPaginaOcho:" destination="BYZ-38-t0r" id="eQO-LN-Zjf"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Hol-gv-P8p" userLabel="Swipe Ant pagina 8">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaOcho:" destination="BYZ-38-t0r" id="chk-3e-ahM"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="FDq-b4-ecq" userLabel="Swipe Sig pagina 9">
+                    <connections>
+                        <action selector="doSwipeRightPaginaNueve:" destination="BYZ-38-t0r" id="gp8-eF-t7R"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="zwC-fO-EDm" userLabel="Swipe Ant pagina 9">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaNueve:" destination="BYZ-38-t0r" id="QUu-nN-bLe"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="ugE-dU-7Lq" userLabel="Swipe Sig pagina 10">
+                    <connections>
+                        <action selector="doSwipeRightPaginaDiez:" destination="BYZ-38-t0r" id="It4-pz-AKy"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="QmS-K2-cI0" userLabel="Swipe Ant pagina 10">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaDiez:" destination="BYZ-38-t0r" id="3Fw-Ac-U03"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="OAS-70-diF" userLabel="Swipe Sig pagina 11">
+                    <connections>
+                        <action selector="doSwipeRightPaginaOnce:" destination="BYZ-38-t0r" id="pnr-Nd-Fnt"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="tO9-Ki-ML5" userLabel="Swipe Ant pagina 11">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaOnce:" destination="BYZ-38-t0r" id="Bfe-hl-ScJ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Tna-3o-A6u" userLabel="Swipe Sig pagina 12">
+                    <connections>
+                        <action selector="doSwipeRightPaginaDoce:" destination="BYZ-38-t0r" id="Ahd-he-MS7"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="ywJ-U3-M2D" userLabel="Swipe Ant pagina 12">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaDoce:" destination="BYZ-38-t0r" id="vFx-Xw-ybB"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="hIx-Lq-eHD" userLabel="Swipe Ant pagina 13">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaTrece:" destination="BYZ-38-t0r" id="Gfb-6f-FEo"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="CVH-EZ-H2f" userLabel="Swipe Ant pagina 7">
+                    <connections>
+                        <action selector="doSwipeLeftPaginaSiete:" destination="BYZ-38-t0r" id="bUD-NB-wLz"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="WFN-wR-7Om" userLabel="DoSwipe sig pag  7">
+                    <connections>
+                        <action selector="doSwipeRightPagSiete:" destination="BYZ-38-t0r" id="RAz-20-gaS"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="1134" y="-43"/>
+        </scene>
+        <!--Navegacion-->
+        <scene sceneID="9sR-cI-idT">
+            <objects>
+                <viewController id="T3X-2u-MaM" customClass="Navegacion" customModule="Diminutas_Historias" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RTO-cT-zN8"/>
+                        <viewControllerLayoutGuide type="bottom" id="aNr-yE-kAF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yfu-S5-S7z">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fondo" translatesAutoresizingMaskIntoConstraints="NO" id="bPB-Is-myS">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LetreroApp" translatesAutoresizingMaskIntoConstraints="NO" id="4QQ-Fa-CtR">
+                                <rect key="frame" x="400" y="10" width="442" height="236"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cuento2" translatesAutoresizingMaskIntoConstraints="NO" id="P6u-Bu-6kP">
+                                <rect key="frame" x="540" y="365" width="412" height="294"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cuento1" translatesAutoresizingMaskIntoConstraints="NO" id="uJN-gk-XuJ">
+                                <rect key="frame" x="64" y="285" width="412" height="294"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MRF-XZ-Sag">
+                                <rect key="frame" x="587" y="423" width="319" height="200"/>
+                                <color key="backgroundColor" cyan="0.24136041189999999" magenta="0.0185179431" yellow="0.050903908909999997" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="j7U-Xk-UbA" appends="YES" id="OQG-fd-CUP"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="vwCuento2" destination="MRF-XZ-Sag" id="XTN-Gs-FKZ"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToCuento" animates="NO" id="3qM-R8-m8B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TnE-D3-Sl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="j7U-Xk-UbA" userLabel="GestureCuento2">
+                    <connections>
+                        <action selector="doTapCuento2:" destination="T3X-2u-MaM" id="Oxc-HJ-Eqi"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="13" y="-48"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fVu-9W-5J5">
+            <objects>
+                <viewController id="wgA-U9-Anp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KfW-wS-slX"/>
+                        <viewControllerLayoutGuide type="bottom" id="K8k-4M-wXd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nkc-6Q-ZIg">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKW-w5-fkT">
+                                <rect key="frame" x="224" y="28" width="220" height="169"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6VI-IV-Vnp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29" y="842"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ArbolFrente" width="694" height="1536"/>
+        <image name="Cuento1" width="888" height="743"/>
+        <image name="Cuento2" width="888" height="743"/>
+        <image name="Fondo" width="2048" height="1536"/>
+        <image name="FondoBosque" width="2048" height="1536"/>
+        <image name="FondoPag5" width="2048" height="1536"/>
+        <image name="FondoSinArbol-pag4" width="2048" height="1536"/>
+        <image name="FondoTitulo" width="2048" height="1536"/>
+        <image name="Fondoverde" width="2048" height="1536"/>
+        <image name="GranoArena" width="150" height="125"/>
+        <image name="LetreroApp" width="959" height="567"/>
+        <image name="Luna" width="684" height="927"/>
+        <image name="ManoMuerte-1" width="1738" height="1890"/>
+        <image name="Montesito-Pag6" width="2048" height="555"/>
+        <image name="OndaMuerte" width="1888" height="595"/>
+        <image name="ParquitaAtras" width="901" height="1536"/>
+        <image name="ParquitaFace" width="746" height="770"/>
+        <image name="ParquitaFrente" width="901" height="1536"/>
+        <image name="ParquitaNoFace" width="901" height="1536"/>
+        <image name="ParquitaPerfil" width="1539" height="904"/>
+        <image name="RelojArena" width="3398" height="4889"/>
+        <image name="Sol" width="889" height="927"/>
+        <image name="SolMover" width="889" height="927"/>
+        <image name="VenadoFrente" width="1086" height="1170"/>
+        <image name="VenadoOjosCerrado" width="1086" height="1170"/>
+        <image name="VenadoPerfil" width="1086" height="1170"/>
+        <image name="VenadoSentado" width="1070" height="759"/>
+        <image name="finalAbrazoAmistad" width="1221" height="1490"/>
+        <image name="fondo-parquitaSad" width="2048" height="1536"/>
+        <image name="fondoGris" width="2048" height="1536"/>
+        <image name="invierno" width="2048" height="1536"/>
+        <image name="lago" width="8558" height="2495"/>
+        <image name="ondaVenado" width="1773" height="416"/>
+        <image name="otoño" width="2048" height="1536"/>
+        <image name="parquitaSad" width="403" height="464"/>
+        <image name="primavera" width="2048" height="1536"/>
+        <image name="tituloCuentoMuerte" width="1679" height="804"/>
+        <image name="verano" width="2048" height="1536"/>
+    </resources>
 </document>

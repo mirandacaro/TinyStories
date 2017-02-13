@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85069CC31E4E47CB0007A352 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 85069CC21E4E47CB0007A352 /* ghost.png */; };
 		856FF0871E4CDBE70071F21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FF0861E4CDBE70071F21C /* AppDelegate.swift */; };
 		856FF0891E4CDBE70071F21C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FF0881E4CDBE70071F21C /* ViewController.swift */; };
 		856FF08C1E4CDBE70071F21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FF08A1E4CDBE70071F21C /* Main.storyboard */; };
@@ -14,6 +15,22 @@
 		856FF0911E4CDBE70071F21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856FF08F1E4CDBE70071F21C /* LaunchScreen.storyboard */; };
 		856FF09C1E4CDBE70071F21C /* Diminutas_HistoriasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FF09B1E4CDBE70071F21C /* Diminutas_HistoriasTests.swift */; };
 		856FF0A71E4CDBE70071F21C /* Diminutas_HistoriasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FF0A61E4CDBE70071F21C /* Diminutas_HistoriasUITests.swift */; };
+		9828F1B91E4F184600AD7218 /* navegacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828F1B81E4F184600AD7218 /* navegacion.swift */; };
+		985EA10E1E522D4700ED8093 /* Dialogo 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1021E522D4700ED8093 /* Dialogo 1.mp3 */; };
+		985EA10F1E522D4700ED8093 /* Dialogo 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1031E522D4700ED8093 /* Dialogo 2.mp3 */; };
+		985EA1101E522D4700ED8093 /* Dialogo 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1041E522D4700ED8093 /* Dialogo 3.mp3 */; };
+		985EA1111E522D4700ED8093 /* Dialogo 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1051E522D4700ED8093 /* Dialogo 4.mp3 */; };
+		985EA1121E522D4700ED8093 /* Dialogo 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1061E522D4700ED8093 /* Dialogo 5.mp3 */; };
+		985EA1131E522D4700ED8093 /* Dialogo 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1071E522D4700ED8093 /* Dialogo 6.mp3 */; };
+		985EA1141E522D4700ED8093 /* Dialogo 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1081E522D4700ED8093 /* Dialogo 7.mp3 */; };
+		985EA1151E522D4700ED8093 /* Dialogo 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA1091E522D4700ED8093 /* Dialogo 8.mp3 */; };
+		985EA1161E522D4700ED8093 /* Dialogo 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA10A1E522D4700ED8093 /* Dialogo 9.mp3 */; };
+		985EA1171E522D4700ED8093 /* Dialogo 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA10B1E522D4700ED8093 /* Dialogo 10.mp3 */; };
+		985EA1181E522D4700ED8093 /* Dialogo 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA10C1E522D4700ED8093 /* Dialogo 11.mp3 */; };
+		985EA1191E522D4700ED8093 /* Titulo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA10D1E522D4700ED8093 /* Titulo.mp3 */; };
+		985EA11B1E522F3E00ED8093 /* piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 985EA11A1E522F3E00ED8093 /* piano.mp3 */; };
+		98A319F61E50491000278A1E /* Hensa.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98A319F51E50491000278A1E /* Hensa.otf */; };
+		98A319F81E504B7900278A1E /* olivier_demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98A319F71E504B7900278A1E /* olivier_demo.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +51,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		856FF0831E4CDBE70071F21C /* Diminutas Historias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diminutas Historias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85069CC21E4E47CB0007A352 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
 		856FF0861E4CDBE70071F21C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		856FF0881E4CDBE70071F21C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		856FF08B1E4CDBE70071F21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		856FF08D1E4CDBE70071F21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856FF0901E4CDBE70071F21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856FF0921E4CDBE70071F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		856FF0971E4CDBE70071F21C /* Diminutas HistoriasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diminutas HistoriasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856FF09B1E4CDBE70071F21C /* Diminutas_HistoriasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diminutas_HistoriasTests.swift; sourceTree = "<group>"; };
 		856FF09D1E4CDBE70071F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		856FF0A21E4CDBE70071F21C /* Diminutas HistoriasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diminutas HistoriasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856FF0A61E4CDBE70071F21C /* Diminutas_HistoriasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diminutas_HistoriasUITests.swift; sourceTree = "<group>"; };
 		856FF0A81E4CDBE70071F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9828F1B81E4F184600AD7218 /* navegacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navegacion.swift; path = ../navegacion.swift; sourceTree = "<group>"; };
+		9841B4C61E517E9A0094BE2A /* Diminutas Historias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diminutas Historias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9841B4C71E517E9A0094BE2A /* Diminutas HistoriasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diminutas HistoriasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9841B4C81E517E9A0094BE2A /* Diminutas HistoriasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diminutas HistoriasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		985EA1021E522D4700ED8093 /* Dialogo 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 1.mp3"; sourceTree = "<group>"; };
+		985EA1031E522D4700ED8093 /* Dialogo 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 2.mp3"; sourceTree = "<group>"; };
+		985EA1041E522D4700ED8093 /* Dialogo 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 3.mp3"; sourceTree = "<group>"; };
+		985EA1051E522D4700ED8093 /* Dialogo 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 4.mp3"; sourceTree = "<group>"; };
+		985EA1061E522D4700ED8093 /* Dialogo 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 5.mp3"; sourceTree = "<group>"; };
+		985EA1071E522D4700ED8093 /* Dialogo 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 6.mp3"; sourceTree = "<group>"; };
+		985EA1081E522D4700ED8093 /* Dialogo 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 7.mp3"; sourceTree = "<group>"; };
+		985EA1091E522D4700ED8093 /* Dialogo 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 8.mp3"; sourceTree = "<group>"; };
+		985EA10A1E522D4700ED8093 /* Dialogo 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 9.mp3"; sourceTree = "<group>"; };
+		985EA10B1E522D4700ED8093 /* Dialogo 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 10.mp3"; sourceTree = "<group>"; };
+		985EA10C1E522D4700ED8093 /* Dialogo 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dialogo 11.mp3"; sourceTree = "<group>"; };
+		985EA10D1E522D4700ED8093 /* Titulo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Titulo.mp3; sourceTree = "<group>"; };
+		985EA11A1E522F3E00ED8093 /* piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano.mp3; sourceTree = "<group>"; };
+		98A319F51E50491000278A1E /* Hensa.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hensa.otf; sourceTree = "<group>"; };
+		98A319F71E504B7900278A1E /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = olivier_demo.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,32 +111,42 @@
 		856FF07A1E4CDBE70071F21C = {
 			isa = PBXGroup;
 			children = (
+				985EA1021E522D4700ED8093 /* Dialogo 1.mp3 */,
+				985EA1031E522D4700ED8093 /* Dialogo 2.mp3 */,
+				985EA1041E522D4700ED8093 /* Dialogo 3.mp3 */,
+				985EA1051E522D4700ED8093 /* Dialogo 4.mp3 */,
+				985EA1061E522D4700ED8093 /* Dialogo 5.mp3 */,
+				985EA1071E522D4700ED8093 /* Dialogo 6.mp3 */,
+				985EA1081E522D4700ED8093 /* Dialogo 7.mp3 */,
+				985EA1091E522D4700ED8093 /* Dialogo 8.mp3 */,
+				985EA10A1E522D4700ED8093 /* Dialogo 9.mp3 */,
+				985EA10B1E522D4700ED8093 /* Dialogo 10.mp3 */,
+				985EA10C1E522D4700ED8093 /* Dialogo 11.mp3 */,
+				985EA10D1E522D4700ED8093 /* Titulo.mp3 */,
+				985EA11A1E522F3E00ED8093 /* piano.mp3 */,
 				856FF0851E4CDBE70071F21C /* Diminutas Historias */,
 				856FF09A1E4CDBE70071F21C /* Diminutas HistoriasTests */,
 				856FF0A51E4CDBE70071F21C /* Diminutas HistoriasUITests */,
-				856FF0841E4CDBE70071F21C /* Products */,
+				85069CC21E4E47CB0007A352 /* ghost.png */,
+				9841B4C61E517E9A0094BE2A /* Diminutas Historias.app */,
+				9841B4C71E517E9A0094BE2A /* Diminutas HistoriasTests.xctest */,
+				9841B4C81E517E9A0094BE2A /* Diminutas HistoriasUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		856FF0841E4CDBE70071F21C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				856FF0831E4CDBE70071F21C /* Diminutas Historias.app */,
-				856FF0971E4CDBE70071F21C /* Diminutas HistoriasTests.xctest */,
-				856FF0A21E4CDBE70071F21C /* Diminutas HistoriasUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		856FF0851E4CDBE70071F21C /* Diminutas Historias */ = {
 			isa = PBXGroup;
 			children = (
+				98A319F71E504B7900278A1E /* olivier_demo.ttf */,
+				98A319F51E50491000278A1E /* Hensa.otf */,
 				856FF0861E4CDBE70071F21C /* AppDelegate.swift */,
+				9828F1B81E4F184600AD7218 /* navegacion.swift */,
 				856FF0881E4CDBE70071F21C /* ViewController.swift */,
 				856FF08A1E4CDBE70071F21C /* Main.storyboard */,
 				856FF08D1E4CDBE70071F21C /* Assets.xcassets */,
 				856FF08F1E4CDBE70071F21C /* LaunchScreen.storyboard */,
 				856FF0921E4CDBE70071F21C /* Info.plist */,
+				98A319DC1E50244E00278A1E /* Audio */,
 			);
 			path = "Diminutas Historias";
 			sourceTree = "<group>";
@@ -125,6 +169,14 @@
 			path = "Diminutas HistoriasUITests";
 			sourceTree = "<group>";
 		};
+		98A319DC1E50244E00278A1E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Audio;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,7 +194,7 @@
 			);
 			name = "Diminutas Historias";
 			productName = "Diminutas Historias";
-			productReference = 856FF0831E4CDBE70071F21C /* Diminutas Historias.app */;
+			productReference = 9841B4C61E517E9A0094BE2A /* Diminutas Historias.app */;
 			productType = "com.apple.product-type.application";
 		};
 		856FF0961E4CDBE70071F21C /* Diminutas HistoriasTests */ = {
@@ -160,7 +212,7 @@
 			);
 			name = "Diminutas HistoriasTests";
 			productName = "Diminutas HistoriasTests";
-			productReference = 856FF0971E4CDBE70071F21C /* Diminutas HistoriasTests.xctest */;
+			productReference = 9841B4C71E517E9A0094BE2A /* Diminutas HistoriasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		856FF0A11E4CDBE70071F21C /* Diminutas HistoriasUITests */ = {
@@ -178,7 +230,7 @@
 			);
 			name = "Diminutas HistoriasUITests";
 			productName = "Diminutas HistoriasUITests";
-			productReference = 856FF0A21E4CDBE70071F21C /* Diminutas HistoriasUITests.xctest */;
+			productReference = 9841B4C81E517E9A0094BE2A /* Diminutas HistoriasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +265,7 @@
 				Base,
 			);
 			mainGroup = 856FF07A1E4CDBE70071F21C;
-			productRefGroup = 856FF0841E4CDBE70071F21C /* Products */;
+			productRefGroup = 856FF07A1E4CDBE70071F21C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +281,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985EA1151E522D4700ED8093 /* Dialogo 8.mp3 in Resources */,
+				985EA10E1E522D4700ED8093 /* Dialogo 1.mp3 in Resources */,
 				856FF0911E4CDBE70071F21C /* LaunchScreen.storyboard in Resources */,
+				985EA1191E522D4700ED8093 /* Titulo.mp3 in Resources */,
+				85069CC31E4E47CB0007A352 /* ghost.png in Resources */,
+				98A319F81E504B7900278A1E /* olivier_demo.ttf in Resources */,
+				985EA1121E522D4700ED8093 /* Dialogo 5.mp3 in Resources */,
+				985EA1111E522D4700ED8093 /* Dialogo 4.mp3 in Resources */,
+				985EA10F1E522D4700ED8093 /* Dialogo 2.mp3 in Resources */,
+				985EA1101E522D4700ED8093 /* Dialogo 3.mp3 in Resources */,
+				985EA1131E522D4700ED8093 /* Dialogo 6.mp3 in Resources */,
+				98A319F61E50491000278A1E /* Hensa.otf in Resources */,
 				856FF08E1E4CDBE70071F21C /* Assets.xcassets in Resources */,
+				985EA11B1E522F3E00ED8093 /* piano.mp3 in Resources */,
+				985EA1171E522D4700ED8093 /* Dialogo 10.mp3 in Resources */,
 				856FF08C1E4CDBE70071F21C /* Main.storyboard in Resources */,
+				985EA1141E522D4700ED8093 /* Dialogo 7.mp3 in Resources */,
+				985EA1181E522D4700ED8093 /* Dialogo 11.mp3 in Resources */,
+				985EA1161E522D4700ED8093 /* Dialogo 9.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +326,7 @@
 			files = (
 				856FF0891E4CDBE70071F21C /* ViewController.swift in Sources */,
 				856FF0871E4CDBE70071F21C /* AppDelegate.swift in Sources */,
+				9828F1B91E4F184600AD7218 /* navegacion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +553,7 @@
 				856FF0AD1E4CDBE70071F21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		856FF0AE1E4CDBE70071F21C /* Build configuration list for PBXNativeTarget "Diminutas HistoriasTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +562,7 @@
 				856FF0B01E4CDBE70071F21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		856FF0B11E4CDBE70071F21C /* Build configuration list for PBXNativeTarget "Diminutas HistoriasUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +571,7 @@
 				856FF0B31E4CDBE70071F21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
